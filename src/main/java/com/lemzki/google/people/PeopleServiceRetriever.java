@@ -1,4 +1,4 @@
-package com.lemzki.google.people.google.service;
+package com.lemzki.google.people;
 
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.http.HttpRequestInitializer;
@@ -6,6 +6,7 @@ import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.services.people.v1.PeopleService;
 import com.lemzki.common.exception.UnauthenticatedSessionException;
+import com.lemzki.tools.security.LoggedInUser;
 import com.lemzki.tools.security.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

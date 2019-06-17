@@ -1,4 +1,4 @@
-dfdebug: true
+debug: true
 
 spring:
   profiles:

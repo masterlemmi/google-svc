@@ -1,7 +1,7 @@
 package com.lemzki.tools.security;
 
 @FunctionalInterface
-public interface ggedInUser {
+public interface LoggedInUser {
     User get();
 
      LoggedInUser ANONYMOUS = ()->User.ANONYMOUS;

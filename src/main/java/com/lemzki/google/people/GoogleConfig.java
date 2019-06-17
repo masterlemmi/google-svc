@@ -1,4 +1,4 @@
-package com.lemzki.google.people.google;
+package com.lemzki.google.people;
 
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.HttpTransport;
